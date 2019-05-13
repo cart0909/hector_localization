@@ -110,3 +110,7 @@ install(DIRECTORY
   rviz_cfg
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+
+install(FILES hector_pose_estimation_nodelets.xml
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
